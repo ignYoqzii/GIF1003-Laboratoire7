@@ -1,7 +1,7 @@
 /**
  * @file main.cpp
  * @author yoqzii
- * @brief
+ * @brief Point d'entrée du programme pour le jeu de Tic Tac Toe
  * @version 0.1
  * @date 2026-02-27
  *

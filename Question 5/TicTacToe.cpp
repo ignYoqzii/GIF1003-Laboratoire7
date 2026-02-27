@@ -1,7 +1,7 @@
 /**
  * @file TicTacToe.cpp
  * @author yoqzii
- * @brief
+ * @brief Implémentation de la classe TicTacToe
  * @version 0.1
  * @date 2026-02-27
  *

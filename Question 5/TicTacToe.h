@@ -1,7 +1,7 @@
 /**
  * @file TicTacToe.h
  * @author yoqzii
- * @brief
+ * @brief Déclaration de la classe TicTacToe
  * @version 0.1
  * @date 2026-02-27
  *
