@@ -1,7 +1,8 @@
 /**
  * @file main.cpp
  * @author yoqzii
- * @brief
+ * @brief Ce programme calcule les factorielles de 1 à 5 et affiche le résultat de 20!.
+ * Il met en évidence le problème de débordement (overflow) lorsque la valeur dépasse la capacité d'un entier signé.
  * @version 0.1
  * @date 2026-02-27
  *
