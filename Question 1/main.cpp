@@ -1,7 +1,7 @@
 /**
  * @file main.cpp
  * @author yoqzii
- * @brief
+ * @brief Ce programme permet de saisir les résultats de 10 étudiants et de déterminer s'il faut relever le niveau de l'examen en fonction du nombre de succès.
  * @version 0.1
  * @date 2026-02-27
  *
