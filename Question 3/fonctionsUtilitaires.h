@@ -18,12 +18,6 @@
 #include <array>
 #include <string>
 
-using std::array;
-using std::cout;
-using std::endl;
-using std::ostringstream;
-using std::string;
-
 constexpr int MAX_UTILISATEURS = 10;
 
 enum INFORMATIONS
@@ -34,8 +28,8 @@ enum INFORMATIONS
     NOMBRE_INFORMATIONS // 3
 };
 
-void ajouterUtilisateur(array<array<string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> &p_listeUtilisateurs, const string &p_prenom, const string &p_nom);
-void afficherInformationsUtilisateur(const array<array<string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> &p_listeUtilisateurs, const string &p_nomUtilisateur);
-void afficherListeUtilisateurs(const array<array<string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> &p_listeUtilisateurs);
+void ajouterUtilisateur(std::array<std::array<std::string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> &p_listeUtilisateurs, const std::string &p_prenom, const std::string &p_nom);
+void afficherInformationsUtilisateur(const std::array<std::array<std::string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> &p_listeUtilisateurs, const std::string &p_nomUtilisateur);
+void afficherListeUtilisateurs(const std::array<std::array<std::string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> &p_listeUtilisateurs);
 
 #endif // FONCTIONS_UTILITAIRES_H

@@ -12,8 +12,12 @@
 
 #include "fonctionsUtilitaires.h"
 
+using std::array;
 using std::cin;
+using std::cout;
+using std::endl;
 using std::getline;
+using std::string;
 
 array<array<string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> listeUtilisateurs;
 

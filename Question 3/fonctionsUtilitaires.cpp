@@ -11,6 +11,12 @@
 
 #include "fonctionsUtilitaires.h"
 
+using std::array;
+using std::cout;
+using std::endl;
+using std::ostringstream;
+using std::string;
+
 int nombreUtilisateurs = 0;
 
 int nombreOccurences(const array<array<string, NOMBRE_INFORMATIONS>, MAX_UTILISATEURS> &p_listeUtilisateurs, const char p_initialePrenom, const char p_initialeNom)
