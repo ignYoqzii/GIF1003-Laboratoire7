@@ -1,7 +1,7 @@
 /**
  * @file main.cpp
  * @author yoqzii
- * @brief
+ * @brief Ce programme génère un mot de passe à partir du prénom, du nom et de la date de naissance de l'utilisateur.
  * @version 0.1
  * @date 2026-02-27
  *
