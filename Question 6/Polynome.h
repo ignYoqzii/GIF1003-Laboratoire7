@@ -22,8 +22,7 @@ constexpr int DEGREE_MAX = 10;
 class Polynome
 {
 public:
-    Polynome();
-    Polynome(int p_degree);
+    Polynome(int p_degree = 0);
     void insererCoefficient(int p_terme, double p_coefficient);
     int reqDegree() const;
     double reqCoefficient(int p_terme) const;

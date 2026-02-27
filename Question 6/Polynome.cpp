@@ -11,10 +11,6 @@
 
 #include "Polynome.h"
 
-Polynome::Polynome() : m_degree(0), m_coefficients{}
-{
-}
-
 Polynome::Polynome(int p_degree) : m_degree(p_degree), m_coefficients{}
 {
     if (m_degree < 0 || m_degree > DEGREE_MAX)
